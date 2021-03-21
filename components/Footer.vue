@@ -22,5 +22,8 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
+span {
+  font-family: "Pacifico", cursive;
+}
 </style>
