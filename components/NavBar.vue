@@ -12,12 +12,13 @@
       <nav
         class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center md:pr-32"
       >
-        <a
-          :href="[link == 'About Me' ? '/' : link]"
+
+        <nuxt-link
+          :to="link == 'About Me' ? '/' : link"
           :class="[computedClass(link.toLowerCase()), 'mr-5', 'cursor-pointer']"
           v-for="link in links"
           :key="`${link}`"
-          >{{ selectedOption(link) }}</a
+          >{{ selectedOption(link) }}</nuxt-link
         >
       </nav>
     </div>
