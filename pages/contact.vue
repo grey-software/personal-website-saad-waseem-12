@@ -1,34 +1,30 @@
 <template>
   <div>
     <Header :headline="headline" :name="name" :tags="tags" />
-    <Hero />
+    <ContactHero />
+
   </div>
 </template>
 
 <script>
 import Header from "../components/Header.vue";
-import Hero from "../components/Hero.vue";
+import ContactHero from "../components/ContactHero.vue";
 
 export default {
   components: {
     Header,
-    Hero,
+    ContactHero
   },
   data() {
     return {
-      headline: "Hello! I am",
-      name: "Saad",
+      headline: "",
+      name: "Get in touch!",
       tags: [
-        "#Software Engineer",
-        "#Developer",
-        "#Explorer",
-        "#Gamer",
-        "#Weeb",
       ],
     };
   },
 };
 </script>
 
-<style>
+<style scoped>
 </style>

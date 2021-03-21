@@ -1,7 +1,8 @@
 <template>
   <div>
-    <Header :headline="headline" :name="name" :tags="tags" />
+    <Header :name="name" :tags="tags" />
     <Hero />
+
   </div>
 </template>
 
@@ -16,7 +17,6 @@ export default {
   },
   data() {
     return {
-      headline: "Hello! I am",
       name: "Saad",
       tags: [
         "#Software Engineer",
@@ -30,5 +30,5 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 </style>
