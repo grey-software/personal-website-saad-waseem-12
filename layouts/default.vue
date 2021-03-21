@@ -1,64 +1,34 @@
 <template>
-  <div>
-    <NavBar/>
-    <Nuxt />
-    <Footer/>
+  <div class="bg-fixed min-h-screen h-full min-w-full main-background relative p-1 pb-40 md:pb-32">
+    <Background/>
+    <NavBar class=" relative z-10"/>
+    <!-- <div class="bg-white h-full overflow-y-scroll relative"> -->
+    <Nuxt class=" relative z-10"/>
+    <HoveringSocial class=" relative z-10"/>
+    <!-- </div> -->
+    <Footer class="absolute bottom-0 right-0 left-0 opacity-75 z-20 mt-6"/>
   </div>
 </template>
 
+<script>
+export default {};
+</script>
+
 <style>
-html {
-  font-family:
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&display=swap');
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
+html,
+body {
+  min-height: 100vh;
 }
-
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
+.main-background {
+  background: rgb(39, 54, 79);
+  background: radial-gradient(
+    circle,
+    rgba(39, 54, 79, 1) 0%,
+    rgba(17, 17, 34, 1) 50%,
+    rgba(17, 17, 34, 1) 100%
+  );
 }
 </style>
