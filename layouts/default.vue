@@ -15,9 +15,6 @@ export default {};
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&display=swap');
-
 html,
 body {
   min-height: 100vh;
