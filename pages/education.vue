@@ -28,6 +28,11 @@ export default {
       ],
     };
   },
+  head(){
+    return{
+      title: "Saad Waseem - Education",
+    }
+  }
 };
 </script>
 
