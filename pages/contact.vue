@@ -18,7 +18,7 @@ export default {
   data() {
     return {
       headline: "",
-      name: "Get in touch!",
+      name: "Get In Touch!",
       tags: [
       ],
     };
