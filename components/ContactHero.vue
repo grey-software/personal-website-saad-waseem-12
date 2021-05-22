@@ -16,7 +16,7 @@
           You can mail me or just send a text on WhatsApp!
         </p>
         <div class="flex justify-center">
-          <a href="mailto:Darkzodiac12@gmail.com" target="_blank">
+          <a href="mailto:Saadwaseem645@gmail.com" target="_blank">
             <button
               class="inline-flex ml-4 border-2 border-red-500 text-white bg-red-900 border-0 py-2 px-6 focus:outline-none hover:bg-red-500 rounded-full text-lg"
             >
